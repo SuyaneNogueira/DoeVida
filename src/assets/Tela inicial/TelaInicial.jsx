@@ -21,7 +21,7 @@ function TelaInicial() {
     </div>
 
     
-    <button href="./telas de Perfil/index.html"> <img class="perfil" src="Img_T_inicial/user perfil.png" alt=""/></button>
+    <button href="./telas de Perfil/index.html"><img class="perfil" src="Img_T_inicial/user perfil.png" alt=""/></button>
 
 </div>
 {/* <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////    --> */}
@@ -114,7 +114,7 @@ function TelaInicial() {
         </section>
         <hr class="divisao"/>
         <section class="descricao">
-            <img class="imgDois" src="img/logo doação de sangue.png" alt="logo"/>
+            <img class="imgDois" src="/Img_T_inicial/logo doação de sangue.png" alt="logo"/>
             <h1 class="projeto">DoeVida</h1>
             <div class="creditos">
                 <p>©DoeVidas todos os direitos reservados.</p>

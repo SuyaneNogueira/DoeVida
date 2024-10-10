@@ -17,7 +17,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color: whitesmoke;
+    color: rgb(36, 204, 255);
     position: fixed;
     width: 100%;
     padding: 15px;
@@ -35,11 +35,25 @@ h2 {
 
 .itens>button {
     padding-left: 55px;
-    color: #F2EED8;
+    color: #1a1918;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
+        background-color: #b92c37; 
+        color: white;
+        padding: 15px 35px;
+        border: none;
+        border-radius: 25px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s;
 }
+    
+    .itens>button:hover {
+        background-color: #D94F55; 
+    }
+    
+
 
 .itens>button:hover {
     transition: 0.3s;
@@ -58,7 +72,7 @@ h2 {
 }
 
 .login:hover {
-    background-color: #dad6c1;
+    background-color: #ecebe5;
     transform: scale(1.05);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 
@@ -72,7 +86,7 @@ h2 {
 .link2:hover,
 .link3:hover,
 .link4:hover {
-    color: #e0dcc0;
+    color: #ecebe5;
     transition: 0.3s;
 }
 

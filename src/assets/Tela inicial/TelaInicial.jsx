@@ -12,16 +12,34 @@ function TelaInicial() {
     <h2>Doação de Sangue</h2>
 
     <div className="linksNavBar">
+     
         <ul className="itens">
+<<<<<<< HEAD
             <button  className="link1">Campanhas</button> 
             <button className="link2">Onde Doar</button>
             <button className="link3">Parceiros</button>
             <button className="link4">Contato</button>
+=======
+             <button className="link1">Campanhas</button> 
+            <button className="link2">Onde Doar</button>
+            <button className="link3">Parceiros</button>
+            <button className="link4">Contado</button>
+
+
+      <img class="perfil" src="/Img_T_inicial/user perfil.png" alt="Usuario"/>
+>>>>>>> c8480e30ab75965da6b43824385cfe9b7e2ca32a
         </ul>
     </div>
+    </div>
+    
+
 
     
+<<<<<<< HEAD
    <img className="perfil" src="Img_T_inicial/user perfil.png" alt=""/>
+=======
+   
+>>>>>>> c8480e30ab75965da6b43824385cfe9b7e2ca32a
 
 </div>
 {/* <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////    --> */}
@@ -129,7 +147,7 @@ function TelaInicial() {
 </footer>
 {/* <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////    --> */}
 </div>
-    </div>
+    // </div>
   )
 }
 

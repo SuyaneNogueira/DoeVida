@@ -3,38 +3,38 @@ import React from 'react'
 function Login() {
   return (
     <div>
-     <div class="container">
-        <div class="form-image">
+     <div className="container">
+        <div className="form-image">
             <img src="img/imagem da tela de login hospitalar.svg"/>
         </div>
-        <div class="form">
-                <div class="form-header">
-                    <div class="tittle">
+        <div className="form">
+                <div className="form-header">
+                    <div className="tittle">
                         <h1>Login</h1>
                     </div>
                 </div>
-                <div class="mensagem">
+                <div className="mensagem">
                     <p>Digite os dados de acesso do hospital no campo abaixo.</p>
                 </div>
-                <div class="input-group">
-                    <div class="input-box">
-                        <div class="input-box">
+                <div className="input-group">
+                    <div className="input-box">
+                        <div className="input-box">
                             <label for="email">Email</label>
                             <input id="email" type="email" name="email" placeholder="Email" required/>
                         </div>
     
-                        <div class="input-box">
+                        <div className="input-box">
                             <label for="password">Senha</label>
                             <input id="password" type="password" name="password" placeholder="Senha" required/>
                         </div>
                     </div>
                 </div>
 
-                <div class="esqueceuSenha">
+                <div className="esqueceuSenha">
                     <button href="#">Esqueci minha senha</button>
                 </div>
                 
-                <div class="confirm-input">
+                <div className="confirm-input">
                     <input type="checkbox" id="confirmacao" name="confirmacao" value="confirmacao" required/>
                     <label for="confirmacao">
                         Ao confirmar os dados preenchidos do login acima, você concorda com os nossos 
@@ -43,7 +43,7 @@ function Login() {
                     </label>
                 </div>
 
-                <div class="login-button">
+                <div className="login-button">
                   <button href="./perfilHospital/indexHospital.html" onclick="login()">Entrar</button>
                 </div>
 

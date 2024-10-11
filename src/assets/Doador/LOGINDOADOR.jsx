@@ -3,37 +3,37 @@ import React from 'react'
 function LOGINDOADOR() {
   return (
     <div>
-      <div class="container">
-        <div class="form-image">
+      <div className="container">
+        <div className="form-image">
             <img src="img/imagem da tela de login.svg" alt=""/>
         </div>
         <div class="form">
                 <div class="form-header">
-                    <div class="tittle">
+                    <div className="tittle">
                         <h1>Login</h1>
                     </div>
                 </div>
-                <div class="mensagem">
+                <div className="mensagem">
                     <p>Digite seus dados de acesso no campo abaixo.</p>
                 </div>
-                <div class="input-group">
-                    <div class="input-box">
-                        <div class="input-box">
+                <div className="input-group">
+                    <div className="input-box">
+                        <div className="input-box">
                             <label for="email">E-mail</label>
                             <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required/>
                         </div>
     
-                        <div class="input-box">
+                        <div className="input-box">
                             <label for="password">Senha</label>
                             <input id="password" type="password" name="password" placeholder="Digite sua senha" required/>
                         </div>
                     </div>
                 </div>
-                <div class="esqueceuSenha">
+                <div className="esqueceuSenha">
                     <button href="indexCadastro.html">Esqueci minha senha</button>
                 </div>
                 
-                <div class="confirm-input">
+                <div className="confirm-input">
                     <input type="checkbox" id="confirmacao" name="confirmacao" value="confirmacao" required/>
                     <label for="confirmacao">
                         Ao confirmar os dados preenchidos do login acima, você concorda com os nossos 
@@ -42,7 +42,7 @@ function LOGINDOADOR() {
                     </label>
                 </div>
 
-                <div class="login-button">
+                <div className="login-button">
                    <button onclick="login()">Entrar</button>
                 </div>
 

@@ -5,11 +5,11 @@ function PerfilHospital() {
     <div>
        <div className="container">
         <div className="form-img">
-            <img src="./perfilHospital/imagem de perfil - Hospital.svg " alt=""/>
+            <img src="./Imagens Utilizadas/imagem de perfil - Hospital.svg " alt=""/>
         </div>
         <div className="form">
             <div className="form-header">
-               <img className="logo" src="./perfilHospital/Cópia de logo doação de sangue (2).png" alt=""/>
+               <img className="logo" src="./Imagens Utilizadas/Cópia de logo doação de sangue (2).png" alt=""/>
                <h1>Perfil do Hospital</h1>
                <div className="voltar-button">
                 <button>Voltar</button>
@@ -17,7 +17,7 @@ function PerfilHospital() {
             </div>
 
             <div className="form-content">
-                <img className="avatar" src="./perfilHospital/user.png" alt=""/>
+                <img className="avatar" src="./Imagens Utilizadas/user.png" alt=""/>
                 <h4>Dados do Hospital</h4>
             </div>
  
@@ -48,7 +48,7 @@ function PerfilHospital() {
                 <div className="segundaColuna">
 
                     <div className="input-box">
-                        <label for="email">Login*</label>
+                        <label for="email">Email*</label>
                         <div className="input-btn-wrapper">
                             <input id="email" type="email" name="email"/>
                             <button className="bntEditar">Editar</button>

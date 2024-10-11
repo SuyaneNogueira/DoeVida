@@ -5,7 +5,7 @@ function Login() {
     <div>
      <div className="container">
         <div className="form-image">
-            <img src="img/imagem da tela de login hospitalar.svg"/>
+            <img src="./Imagens Utilizadas/imagem da tela de login hospitalar.svg"/>
         </div>
         <div className="form">
                 <div className="form-header">

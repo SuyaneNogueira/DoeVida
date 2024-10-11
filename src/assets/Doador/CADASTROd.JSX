@@ -8,7 +8,8 @@ function CADASTROd() {
     <div>
        <div className="container">
         <div className="form-image">
-            <img src="img/imagem da tela de cadastro.svg" alt=""/>
+            <img src="./Imagens Utilizadas/imagem da tela de cadastro.svg" alt=""/> 
+            
         </div>
         <div className="form">
             <div className="form-header">

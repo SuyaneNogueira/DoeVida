@@ -5,12 +5,12 @@ function DOADORPERFIL() {
     <div>
          <div className="container">
         <div className="form-img">
-            <img src="imagem de tela de perfil - Doador.svg " alt=""/>
+            <img src="./Imagens Utilizadas/imagem de tela de perfil - Doador.svg " alt=""/>
         </div>
         <div className="form">
             <div className="form-header">
                 
-                <img className="logo" src="logo doação de sangue (2).png" alt=""/>
+                <img className="logo" src="./Imagens Utilizadas/logo doação de sangue (2).png" alt=""/>
                 <h1>Perfil do Doador</h1>
                 <div className="voltar-button">
                     <button href="./Tela inicial/tela inicial.html">Voltar</button>

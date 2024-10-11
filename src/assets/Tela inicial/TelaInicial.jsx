@@ -11,9 +11,15 @@ function TelaInicial() {
     <img className="imgUm" src="./Img_T_inicial/Logo.png" alt="logo"/>
     <h2>Doação de Sangue</h2>
 
+<<<<<<< HEAD
     <div className="linksNavBar">
         <ul className="itens">
              <button className="link1">Campanhas</button> 
+=======
+    <div class="linksNavBar">
+        <ul class="itens">
+            <button  className="link1">Campanhas</button> 
+>>>>>>> 2304cd8efc040ae4e7936a713cc554030295343c
             <button className="link2">Onde Doar</button>
             <button className="link3">Parceiros</button>
             <button className="link4">Contado</button>
@@ -21,7 +27,11 @@ function TelaInicial() {
     </div>
 
     
+<<<<<<< HEAD
     <button href="./telas de Perfil/index.html"><img className="perfil" src="Img_T_inicial/user perfil.png" alt=""/></button>
+=======
+   <img class="perfil" src="Img_T_inicial/user perfil.png" alt=""/>
+>>>>>>> 2304cd8efc040ae4e7936a713cc554030295343c
 
 </div>
 {/* <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////    --> */}

@@ -13,15 +13,15 @@ function TelaInicial() {
 
     <div class="linksNavBar">
         <ul class="itens">
-            <button class="link1">Campanhas</button> 
-            <button class="link2">Onde Doar</button>
-            <button class="link3">Parceiros</button>
-            <button class="link4">Contado</button>
+            <button  className="link1">Campanhas</button> 
+            <button className="link2">Onde Doar</button>
+            <button className="link3">Parceiros</button>
+            <button className="link4">Contado</button>
         </ul>
     </div>
 
     
-    <button href="./telas de Perfil/index.html"><img class="perfil" src="Img_T_inicial/user perfil.png" alt=""/></button>
+   <img class="perfil" src="Img_T_inicial/user perfil.png" alt=""/>
 
 </div>
 {/* <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////    --> */}
